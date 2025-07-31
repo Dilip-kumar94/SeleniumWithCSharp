@@ -15,7 +15,7 @@ namespace SeleniumCSFramework.Tests
             TestContext.Progress.WriteLine("Executing Test 1");
             driver.Url = ConfigurationManager.AppSettings["baseUrl"]??"NULL";
             login.setUserName("rahulshettyacademy");
-            login.setPassword("learning1");
+            login.setPassword("learning");
             login.setRadioButton("user");
             try
             {
