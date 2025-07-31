@@ -1,0 +1,6 @@
+﻿--Use this to run in Command line--\
+Need to add [category("Smoke")] in test methods to run smoke tests.
+dotnet test SeleniumCSFramework.csproj --filter TestCategory=Smoke.
+--use this to run separate browser without updating config--
+Added TestContext.Parameters argument to specify browser in runtime.
+dotnet test --% -- TestRunParameters.Parameter(name=\"browserName\",value=\"edge\")
