@@ -40,7 +40,7 @@ namespace SeleniumCSFramework.Tests
 
             Assert.That(protoComShop.getCurrentTitle(),Is.EqualTo(protoComShop.getExpectedTitle()));
         }
-        [Test]
+        [Test,Category("Smoke")]
         public void Login_with_Invalid_credentials_for_student()
         {
             TestContext.Progress.WriteLine("Executing Test 2");
@@ -52,7 +52,7 @@ namespace SeleniumCSFramework.Tests
                 .TextToBePresentInElementValue(login.getSignInButtonElement(),"Sign In"));
             Assert.That(login.getTextFromElement(login.getErrorMessageElement()), Is.EqualTo(login.getInvalidErrorMessage()));
         }
-        [Test]
+        [Test, Category("Smoke")]
         public void Login_with_Empty_credentials_for_student()
         {
             TestContext.Progress.WriteLine("Executing Test 3");
@@ -77,7 +77,7 @@ namespace SeleniumCSFramework.Tests
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.TitleContains(protoComShop.getExpectedTitle()));
             Assert.That(protoComShop.getCurrentTitle(), Is.EqualTo(protoComShop.getExpectedTitle()));
         }
-        [Test]
+        [Test, Category("Smoke")]
         public void Login_with_Invalid_credentials_for_teachers()
         {
             TestContext.Progress.WriteLine("Executing Test 5");
@@ -90,7 +90,7 @@ namespace SeleniumCSFramework.Tests
                 .TextToBePresentInElementValue(login.getSignInButtonElement(), "Sign In"));
             Assert.That(login.getTextFromElement(login.getErrorMessageElement()), Is.EqualTo(login.getInvalidErrorMessage()));
         }
-        [Test]
+        [Test, Category("Smoke")]
         public void Login_with_Empty_credentials_for_Teachers()
         {
             TestContext.Progress.WriteLine("Executing Test 6");

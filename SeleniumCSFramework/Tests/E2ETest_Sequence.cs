@@ -60,7 +60,7 @@ public class E2ETest_Sequence
 
     }
 
-    [Test,TestCaseSource(nameof(getTestCaseData))]
+    [Test,TestCaseSource(nameof(getTestCaseData)),Category("E2ESequence")]
     public void Test_End_to_End_2(string userName, string passWord)
     {
         driver.Url = ConfigurationManager.AppSettings["baseUrl"] ?? "Null";
@@ -90,7 +90,7 @@ public class E2ETest_Sequence
         });
     }
 
-    [Test,TestCase("rahulshettyacademy", "learning")]
+    [Test,TestCase("rahulshettyacademy", "learning"),Category("E2ESequence")]
     
     public void Test_End_to_End_1(string userName, string passWord)
     {

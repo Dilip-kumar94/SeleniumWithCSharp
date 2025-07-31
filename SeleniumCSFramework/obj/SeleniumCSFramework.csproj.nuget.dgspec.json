@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dilipkumar.m\\source\\repos\\SeleniumWithCSharp\\SeleniumCSFramework\\SeleniumCSFramework.csproj": {}
+    "C:\\Users\\dilipkumar.m\\Source\\Repos\\SeleniumWithCSharp-repo\\SeleniumCSFramework\\SeleniumCSFramework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dilipkumar.m\\source\\repos\\SeleniumWithCSharp\\SeleniumCSFramework\\SeleniumCSFramework.csproj": {
+    "C:\\Users\\dilipkumar.m\\Source\\Repos\\SeleniumWithCSharp-repo\\SeleniumCSFramework\\SeleniumCSFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dilipkumar.m\\source\\repos\\SeleniumWithCSharp\\SeleniumCSFramework\\SeleniumCSFramework.csproj",
+        "projectUniqueName": "C:\\Users\\dilipkumar.m\\Source\\Repos\\SeleniumWithCSharp-repo\\SeleniumCSFramework\\SeleniumCSFramework.csproj",
         "projectName": "SeleniumCSFramework",
-        "projectPath": "C:\\Users\\dilipkumar.m\\source\\repos\\SeleniumWithCSharp\\SeleniumCSFramework\\SeleniumCSFramework.csproj",
+        "projectPath": "C:\\Users\\dilipkumar.m\\Source\\Repos\\SeleniumWithCSharp-repo\\SeleniumCSFramework\\SeleniumCSFramework.csproj",
         "packagesPath": "C:\\Users\\dilipkumar.m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dilipkumar.m\\source\\repos\\SeleniumWithCSharp\\SeleniumCSFramework\\obj\\",
+        "outputPath": "C:\\Users\\dilipkumar.m\\Source\\Repos\\SeleniumWithCSharp-repo\\SeleniumCSFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

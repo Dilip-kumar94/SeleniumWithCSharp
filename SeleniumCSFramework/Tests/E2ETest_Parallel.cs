@@ -18,7 +18,7 @@ public class E2ETest_Parallel:ParallelUtil
     /// </summary>
 
 
-    [Test,TestCaseSource(nameof(getTestCaseData)),Parallelizable(ParallelScope.All)]
+    [Test,TestCaseSource(nameof(getTestCaseData)),Parallelizable(ParallelScope.All),Category("E2EParallel")]
     public void Test_End_to_End_2(string userName, string passWord)
     {
         LoginPageObj login = new LoginPageObj(getDriver()!);

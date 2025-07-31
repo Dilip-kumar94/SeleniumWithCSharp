@@ -115,11 +115,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dilipkumar.m\\source\\repos\\SeleniumWithCSharp\\TestAutomationCS\\SampleTestAutomationCS.csproj",
+      "projectUniqueName": "C:\\Users\\dilipkumar.m\\Source\\Repos\\SeleniumWithCSharp-repo\\TestAutomationCS\\SampleTestAutomationCS.csproj",
       "projectName": "SampleTestAutomationCS",
-      "projectPath": "C:\\Users\\dilipkumar.m\\source\\repos\\SeleniumWithCSharp\\TestAutomationCS\\SampleTestAutomationCS.csproj",
+      "projectPath": "C:\\Users\\dilipkumar.m\\Source\\Repos\\SeleniumWithCSharp-repo\\TestAutomationCS\\SampleTestAutomationCS.csproj",
       "packagesPath": "C:\\Users\\dilipkumar.m\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dilipkumar.m\\source\\repos\\SeleniumWithCSharp\\TestAutomationCS\\obj\\",
+      "outputPath": "C:\\Users\\dilipkumar.m\\Source\\Repos\\SeleniumWithCSharp-repo\\TestAutomationCS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

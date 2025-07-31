@@ -17,7 +17,7 @@ namespace SeleniumCSFramework.Utilities
 {
     public class ParallelUtil:ReportingUtil
     {
-        public static ThreadLocal<IWebDriver> driver = new ThreadLocal<IWebDriver>(trackAllValues: true);
+        public static ThreadLocal<IWebDriver> driver = new ThreadLocal<IWebDriver>()!;
         
         [SetUp]
         public void Setup()
